@@ -1,0 +1,20 @@
+[
+  {
+    "source": "192.168.1.0/24",
+    "destination": "10.0.0.0/24",
+    "service": "HTTPS",
+    "protocol": "TCP",
+    "port": 443,
+    "action": "allow",
+    "description": "Allow secure access from LAN to DMZ"
+  },
+  {
+    "source": "0.0.0.0/0",
+    "destination": "10.0.1.10",
+    "service": "SSH",
+    "protocol": "TCP",
+    "port": 22,
+    "action": "deny",
+    "description": "Block SSH to server"
+  }
+]
