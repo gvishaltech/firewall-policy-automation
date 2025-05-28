@@ -13,8 +13,20 @@ A Python-based tool to automate the creation, validation, and deployment of fire
 - 📜 Easy-to-read logs for audits and rollback
 
 ---
+## 📁 File Structure
 
-<pre> ## 📁 File Structure ```text firewall-policy-automation/ ├── data/ │ └── firewall_rules.json # Rule definitions ├── scripts/ │ └── apply_rules.py # Main logic to process and apply rules ├── backup/ │ └── backup_config_<date>.txt # Simulated backup ├── logs/ │ └── execution.log # Execution log (future enhancement) ├── README.md └── requirements.txt ``` </pre>
+```firewall-policy-automation/
+├── data/
+│   └── firewall_rules.json         # Rule definitions
+├── scripts/
+│   └── apply_rules.py              # Main logic to process and apply rules
+├── backup/
+│   └── backup_config_<date>.txt    # Simulated backup
+├── logs/
+│   └── execution.log               # Execution log (future enhancement)
+├── README.md
+└── requirements.txt```
+
 
 
 ---
